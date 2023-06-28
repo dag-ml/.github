@@ -14,10 +14,18 @@ We’ll be assessing the outcomes by trying to answer the following questions:
 - Is there a set of these algorithms we should always do together to get the “best” possible answer?
 - How can we measure the degree of congruence with a known graph? By this I mean, if it produces something “close” to what our SMEs had drawn, what is the appropriate way to see “how close” it really is? (i.e., find or develop a “congruence measure”.)
 
+## Data
+- [Dose-dependent skeletal deficits due to varied reductions in mechanical loading in rats (Tibia - pQCT)](10.26030/emsm-0648) (Ko, 2020) 1/2
+- [Dose-dependent skeletal deficits due to varied reductions in mechanical loading in rats (Femur - microCT, three-point bending, histomorphometry)](10.26030/b09t-mw60) (Ko, 2020) 2/2
+- [Quantifying Cancellous Bone Structural Changes in Microgravity: Axial Skeleton Results from the RR-1 Mission](10.26030/8wja-w380) (Dubeé, 2022)
+- [Effects of Spaceflight on Bone Microarchitecture in the Axial and Appendicular Skeleton in Growing Ovariectomized Rats from STS-62](10.26030/cztm-cx29) (Keune, 2015)
+- [Spaceflight-induced (STS-62) vertebral bone loss in ovariectomized rats is associated with increased bone marrow adiposity and no change in bone formation](10.26030/kb2k-2150) (Keune, 2016)
+
+
 ## Algorithms
-- PC
-- Grow-Shrink (GS)
-- Incremental Association (IAMB)
+- [PC](https://doi.org/10.48550/arXiv.1211.3295)
+- [Grow-Shrink](https://doi.org/10.48550/arXiv.1407.8088)
+- [Incremental Association]() (IAMB)
 - Fast Incremental Association (Fast-IAMB)
 - Interleaved Incremental Association (Inter-IAMB)
 - Incremental Association with FDR (IAMB-FDR)
