@@ -25,8 +25,11 @@ We’ll be assessing the outcomes by trying to answer the following questions:
 - Semi-Interleaved HITON-PC
 - Hybrid Parents and Children (HPC)
 
-## Setup
-
-## How to Contribute
-
 ## Authors
+- @bdogetlauncher
+- @camwolff02
+- @campjake
+- @jasper-doan
+- @max9001
+- @mcdipples
+- @nadia-eecs
