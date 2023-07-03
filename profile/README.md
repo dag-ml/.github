@@ -8,11 +8,11 @@ ML-generated graphs for medical risk assessment will be compared back to the ori
 
 We’ll be assessing the outcomes by trying to answer the following questions:
 
-- What are the outputs from the algorithm? (i.e., does it give us a picture, an edge list, and adjacency matrix, or some combination of these? Something else?)
-- Which is best for HSRB applications, where the datasets will likely be small, both in the sense of few features and few training instances (i.e., few columns and few rows)? In complimentary fashion, which might be better for larger applications like engineering anomaly data or ‘omics data?
+- What are the outputs from the algorithm? *(i.e., does it give us a picture, an edge list, and adjacency matrix, or some combination of these? Something else?)*
+- Which is best for HSRB applications, where the datasets will likely be small, both in the sense of few features and few training instances *(i.e., few columns and few rows)*? In complementary fashion, which might be better for larger applications like engineering anomaly data or ‘omics data?
 - How do we know if the DAG produced is “the best” that be learned?
 - Is there a set of these algorithms we should always do together to get the “best” possible answer?
-- How can we measure the degree of congruence with a known graph? By this I mean, if it produces something “close” to what our SMEs had drawn, what is the appropriate way to see “how close” it really is? (i.e., find or develop a “congruence measure”.)
+- How can we measure the degree of congruence with a known graph? By this I mean, if it produces something “close” to what our SMEs had drawn, what is the appropriate way to see “how close” it really is? *(i.e., find or develop a “congruence measure”.)*
 
 ## Data
 - [Dose-dependent skeletal deficits due to varied reductions in mechanical loading in rats (Tibia - pQCT)](https://doi.org/10.26030/emsm-0648) (Ko, 2020) 1/2
@@ -25,10 +25,10 @@ We’ll be assessing the outcomes by trying to answer the following questions:
 ## Algorithms
 - [PC](https://doi.org/10.48550/arXiv.1211.3295)
 - [Grow-Shrink](https://doi.org/10.48550/arXiv.1407.8088)
-- [Incremental Association]() (IAMB)
-- Fast Incremental Association (Fast-IAMB)
-- Interleaved Incremental Association (Inter-IAMB)
-- Incremental Association with FDR (IAMB-FDR)
+- [Incremental Association](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4184048/) (IAMB)
+- [Fast Incremental Association](https://www.cs.cmu.edu/~dmarg/Papers/Yaramakala-Margaritis-ICDM05-with-header.pdf) (Fast-IAMB)
+- [Interleaved Incremental Association](https://www.cs.cmu.edu/~dmarg/Papers/Yaramakala-Margaritis-ICDM05-with-header.pdf) (Inter-IAMB)
+- [Incremental Association with FDR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3400681/) (IAMB-FDR)
 - Max-Min Parents and Children (MMPC)
 - Semi-Interleaved HITON-PC
 - Hybrid Parents and Children (HPC)
@@ -37,7 +37,7 @@ We’ll be assessing the outcomes by trying to answer the following questions:
 - @bdogetlauncher
 - @camwolff02
 - @campjake
-- @jasper-doan
+- @jasperdoan
 - @max9001
 - @mcdipples
 - @nadia-eecs
